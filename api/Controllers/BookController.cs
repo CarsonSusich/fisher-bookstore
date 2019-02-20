@@ -120,6 +120,7 @@ namespace Fisher.Bookstore.Api.Controllers
             }
             db.Books.Remove(book);
             db.SaveChanges();
+
             return NoContent();
         }
     }
