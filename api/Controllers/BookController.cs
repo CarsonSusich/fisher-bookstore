@@ -49,7 +49,7 @@ namespace Fisher.Bookstore.Api.Controllers
     {
         return Ok(db.Books);
     }
-    [HttpGet("{id}")]
+    [HttpGet("{id}", Name = "GetBook")]
 
         public IActionResult GetBook(int id)
 
