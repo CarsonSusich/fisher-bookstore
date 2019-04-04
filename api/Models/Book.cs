@@ -6,6 +6,11 @@ namespace Fisher.Bookstore.Models
     public class Book
     {
 
+        public void ChangePublicationDate(DateTime dateTime)
+        {
+            this.PublishDate = dateTime;
+        }
+
         public int Id { get; set; }
 
         public string Title { get; set; }

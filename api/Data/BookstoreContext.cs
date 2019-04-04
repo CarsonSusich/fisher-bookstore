@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using Fisher.Bookstore.Models;
+using Fisher.Bookstore.Api.Models;
 
 namespace Fisher.Bookstore.Data
 {
