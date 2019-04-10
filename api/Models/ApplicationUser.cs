@@ -1,10 +1,9 @@
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.EntityFrameworkCore;
-using Fisher.Bookstore.api;
 using Microsoft.AspNetCore.Identity;
 
-namespace Fisher.Bookstore.api.Models
+namespace Fisher.Bookstore.Api.Models
 {
     public class ApplicationUser : IdentityUser
     {
