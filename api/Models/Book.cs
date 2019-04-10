@@ -1,6 +1,6 @@
 using System;
 
-namespace Fisher.Bookstore.Models
+namespace Fisher.Bookstore.Api.Models
 {
 
     public class Book
@@ -19,7 +19,7 @@ namespace Fisher.Bookstore.Models
 
         public string ISBN { get; set; }
 
-        public DateTime publicationDate { get; set; }
+        public DateTime PublishDate { get; set; }
 
     }
 }
