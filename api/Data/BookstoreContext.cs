@@ -4,7 +4,7 @@ using Fisher.Bookstore.Api.Models;
 namespace Fisher.Bookstore.Data
 {
 
-    public class BookstoreContext : DbContext
+    public class BookstoreContext : IdentityDbContext<Application>
     {
 
         public BookstoreContext(DbContextOptions<BookstoreContext> options)
